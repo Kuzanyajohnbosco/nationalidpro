@@ -1,0 +1,539 @@
+{% extends "base.html" %}
+ 
+{% block content %}
+  <main class="hero-section">
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="../static/img/log_office.jpg" style="width: 100%;height: 100%;">
+                </div>
+                <div class="col-lg-8">
+                    <div style="padding-left: 10%;">
+                        <h5 style="font-family: ">NRM ADMINISTRATIVE UNITS UGANDA</h5><br>
+                         <h5>DISTRICT: <b>KAGADI</b></h5><br>
+                        <h5>CONSTITUENCY NAME: <b>BUYAGA EAST COUNTY</b></h5>
+
+                    </div>
+                    </div>
+                <div class="col-lg-2">
+                    <img src="../static/img/log_office.jpg" style="width: 100%;height: 100%;">
+                </div>
+            </div>
+
+        </div><br>
+
+        <div class="container">
+            <ul id="clothing-nav" class="nav nav-tabs" role="tablist">
+             <li class="nav-item">
+            <a class="nav-link active" href="#dashbord" id="dashbord-tab" role="tab" data-toggle="tab" aria-controls="dashbord" aria-expanded="true">Dashbord</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#district" role="tab" id="district-tab" data-toggle="tab" aria-controls="district">District Leaders</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#constituency" role="tab" id="constituency-tab" data-toggle="tab" aria-controls="constituency">Constituency Leaders</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#ledgz" role="tab" id="ledgz-tab" data-toggle="tab" aria-controls="ledgz">Ledges</a>
+            </li>
+
+            </ul>
+
+            <!-- Content Panel -->
+            <div id="clothing-nav-content" class="tab-content">
+              <div role="tabpanel" class="tab-pane fade" id="ledgz" aria-labelledby="ledgz-tab">
+              <p>leee</p>
+              </div>
+
+            <div role="tabpanel" class="tab-pane fade show active" id="dashbord" aria-labelledby="dashbord-tab">
+            <!-- dashboard data -->
+              <br>
+            <div id="table_rep">
+              <table class="table table-bordered" style="border: 2px solid black;border-collapse:collapse;">
+                    <thead style="background-color: #FFFF00;">
+                      <tr>
+                        <th>SUBCOUNTY</th>
+                        <th>PARISH NAME</th>
+                        <th>VILLAGES</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td><a href="#" id="link-1">PACHWA</a></td>
+                          <td><a href="#"><button style="background-color: #FFFF00">Add</button></a><br><a href="#">KINYAKAIRU</a></td>
+                        <td><a href="#"><button style="background-color: #FFFF00">Add</button></a><br><a href="#">KISAKURO</a><br><a href="#">KISAKURO</a><br><a href="#">RWENJOBE</a><br><a href="#">KABWOTERO</a><br><a href="#">IROBE</a><br><a href="#">KAHUNIRRO</a><br><a href="#">KYAKADEHE</a><br><a href="#">NYAMPINDU</a></td>
+                      </tr>
+
+                     <tr>
+                        <td></td>
+                        <td><a href="#">IGAYAZA</a></td>
+                        <td><a href="#"><button style="background-color: #FFFF00">Add</button></a><br><a href="#">IROBE</a><br><a href="#">KAHUNIRRO</a><br><a href="#">KYAKADEHE</a><br><a href="">NYAMPINDU</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- end dashboard data -->
+
+            </div>
+            <!-- district leaders -->
+            <div role="tabpanel" class="tab-pane fade" id="district" aria-labelledby="district-tab">
+                <div style="padding: 5% 0px 0px 0px">
+                 <ul id="clothing-nav" class="nav nav-tabs" role="tablist">
+                    
+                  <li class="nav-item">
+                  <a class="nav-link active" href="#lc5" id="lc5-tab" role="tab" data-toggle="tab" aria-controls="lc5" aria-expanded="true">LC5 Chairperson</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#womz" role="tab" id="womz-tab" data-toggle="tab" aria-controls="womz">Woman MP</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#womc" role="tab" id="womc-tab" data-toggle="tab" aria-controls="womc">Woman Counsellor</a>
+                  </li>
+                 
+                 <li class="nav-item">
+                  <a class="nav-link" href="#nrmcp" role="tab" id="nrmcp-tab" data-toggle="tab" aria-controls="nrmcp">NRM ChairPerson</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#special" role="tab" id="special-tab" data-toggle="tab" aria-controls="special">Special GPs</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#ermp" role="tab" id="ermp-tab" data-toggle="tab" aria-controls="ermp">ER MPs</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#army" role="tab" id="army-tab" data-toggle="tab" aria-controls="army">ARMY REPs</a>
+                  </li>
+
+                  </ul>
+
+                  <!-- Content Panel -->
+                  <div id="clothing-nav-content" class="tab-content">
+
+                  <div role="tabpanel" class="tab-pane fade show active" id="lc5" aria-labelledby="lc5-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>LC5 Chairpersons List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John Doe</td>
+                          <td>2017</td>
+                          <td>0789606573</td>
+                        </tr>
+                        <tr>
+                          <td>Mary Moe</td>
+                          <td>2016</td>
+                          <td>0757156578</td>
+                        </tr>
+                        <tr>
+                          <td>July Dooley</td>
+                          <td>2015</td>
+                          <td>0789606573</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="tabpanel" class="tab-pane fade" id="womz" aria-labelledby="womz-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>Women MP List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>bosco</td>
+                          <td>2014</td>
+                          <td>0789606573</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>2014</td>
+                          <td>07894643</td>
+                        </tr>
+                        <tr>
+                          <td>kuzi</td>
+                          <td>2012</td>
+                          <td>07844233</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="womc" aria-labelledby="womc-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>Women Counsellor List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>2013</td>
+                          <td>0833332</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>2015</td>
+                          <td>03266716</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>2015</td>
+                          <td>883732734</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="tabpanel" class="tab-pane fade" id="nrmcp" aria-labelledby="nrmcp-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>NRM Chairpersons List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>daddy</td>
+                          <td>2017</td>
+                          <td>04829372</td>
+                        </tr>
+                        <tr>
+                          <td>Mummy</td>
+                          <td>2013</td>
+                          <td>903825978</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>2013</td>
+                          <td>0932842</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="tabpanel" class="tab-pane fade" id="special" aria-labelledby="special-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>Special Groups List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>2013</td>
+                          <td>34783895</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>2015</td>
+                          <td>9868935656</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>2016y</td>
+                          <td>876389277</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="tabpanel" class="tab-pane fade" id="ermp" aria-labelledby="ermp-tab">
+                      <div style="padding: 25px 0px 0px 0px">
+                     <h3>ER MPs List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>2014</td>
+                          <td>8769460340</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>1994</td>
+                          <td>76232062</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>2000</td>
+                          <td>783742998</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="tabpanel" class="tab-pane fade" id="army" aria-labelledby="army-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>ARMY REPRESENTATIVEs List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>1987</td>
+                          <td>89749232</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>1783</td>
+                          <td>4379238998</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>6778</td>
+                          <td>747938208</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+                </div>
+            </div>
+            <!-- end district leaders -->
+            <div role="tabpanel" class="tab-pane fade" id="constituency" aria-labelledby="constituency-tab">
+                <ul id="clothing-nav" class="nav nav-tabs" role="tablist" style="padding: 5% 0px 0px 0px">
+
+                  <li class="nav-item">
+                  <a class="nav-link active" href="#constituency2" id="constituency2-tab" role="tab" data-toggle="tab" aria-controls="constituency2" aria-expanded="true">Constituency MP</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#womanm" role="tab" id="hats-tab" data-toggle="tab" aria-controls="hats">Woman Counsellor</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#nrmch" role="tab" id="hats-tab" data-toggle="tab" aria-controls="hats">NRM Chairperson</a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="#ledg" role="tab" id="hats-tab" data-toggle="tab" aria-controls="hats">Ledges</a>
+                  </li>
+
+                  </ul>
+
+                  <!-- Content Panel -->
+                  <div id="clothing-nav-content" class="tab-content">
+
+                  <div role="tabpanel" class="tab-pane fade show active" id="constituency2" aria-labelledby="constituency2-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>Constituency MP List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>6574</td>
+                          <td>674378523</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>1674</td>
+                          <td>7786289980</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>733</td>
+                          <td>73478299</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="tabpanel" class="tab-pane fade" id="womanm" aria-labelledby="hats-tab">
+                      <div style="padding: 25px 0px 0px 0px">
+                     <h3>Women counsellor List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>9898</td>
+                          <td>67785129</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>7643</td>
+                          <td>7634783</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>7434</td>
+                          <td>73478945</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="tabpanel" class="tab-pane fade" id="nrmch" aria-labelledby="hats-tab">
+                    <div style="padding: 25px 0px 0px 0px">
+                     <h3>NRM chairperson List</h3>
+                     <table class="table table-bordered">
+                      <thead style="background-color: #FFFF00;">
+                        <tr>
+                          <th>FULL NAME</th>
+                          <th>YEAR OF DUTY</th>
+                          <th>CONTACT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>7643</td>
+                          <td>04395893</td>
+                        </tr>
+                        <tr>
+                          <td>Mary</td>
+                          <td>7898</td>
+                          <td>783484939</td>
+                        </tr>
+                        <tr>
+                          <td>July</td>
+                          <td>0948</td>
+                          <td>67348790</td>
+                        </tr>
+                      </tbody>
+                     </table>
+                      <div class="form-group">
+                        <label for="exampleInputFile" style="font-size: : 28px"><h4>Import File</h4></label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div role="tabpanel" class="tab-pane fade" id="ledg" aria-labelledby="hats-tab">
+                  <p>ledgers</p>
+
+                  </div>
+
+                  </div>
+
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="ledg" aria-labelledby="ledg-tab">
+            <p>ledgers</p>
+            </div>
+
+            </div>    
+                     
+        </div>
+      <br>
+
+        <h5>TOTAL VILLAGES IN PACHWA: <b>21</b></h5>
+        <div class="container" style=" padding-top: 7%">
+            <ul class="pagination pagination-sm" style=" margin-top: auto">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+  </main>
+
+{% endblock %}
